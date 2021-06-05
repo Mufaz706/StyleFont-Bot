@@ -26,7 +26,6 @@ async def start(c, m):
             InlineKeyboardButton('My Dev 👨‍✈️', url=f"https://t.me/{owner_username}")
             InlineKeyboardButton('🤖 Bot Updates', url=f"https://t.me/Bx_Botz")
             InlineKeyboardButton('🤖 Support Group', url=f"https://t.me/BXSupport")
-        
     ]
     await m.reply_text(
         text=text,
