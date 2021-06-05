@@ -19,10 +19,10 @@ async def start(c, m):
 
     # Buttons
     buttons = [
-        [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/{owner_username}")
-        ]
-    ]
+        [InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/{owner_username}]]
+        [InlineKeyboardButton('🤖 Bot Updates', url=f"https://t.me/Bx_Botz)]]
+        [InlineKeyboardButton('Support Group', url=f"https://t.me/BxSupport)]]
+
     await m.reply_text(
         text=text,
         reply_markup=InlineKeyboardMarkup(buttons)
